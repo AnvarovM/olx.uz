@@ -1,6 +1,7 @@
 {
-  "name": "olx_frontend",
+  "name": "OLX e'lonlar taxtasi, avvalgi Torg: O'zbekistonning bepul e'lonlar sayti",
   "version": "0.1.0",
+  "description": "description",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,12 +10,32 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@craco/craco": "^6.4.3",
+    "@sanity/client": "^3.3.0",
+    "@sanity/image-url": "^1.0.1",
+    "aws-amplify": "^4.3.22",
+    "flag-icons": "^6.3.0",
+    "groq": "^2.29.3",
     "next": "12.1.6",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-bootstrap": "^2.3.1",
+    "react-dom": "18.1.0",
+    "react-google-login": "^5.2.2",
+    "react-hot-toast": "^2.2.0",
+    "react-icons": "^4.3.1",
+    "uuid": "^8.3.2",
+    "web-vitals": "^2.1.4"
   },
   "devDependencies": {
+    "@mertasan/tailwindcss-variables": "^2.2.3",
+    "autoprefixer": "^10.4.7",
     "eslint": "8.15.0",
-    "eslint-config-next": "12.1.6"
+    "eslint-config-next": "12.1.6",
+    "firebase": "^9.0.0",
+    "next-i18next": "^11.0.0",
+    "postcss": "^8.4.13",
+    "prettier": "^2.6.2",
+    "prettier-plugin-tailwindcss": "^0.1.10",
+    "tailwindcss": "^3.0.24"
   }
 }
